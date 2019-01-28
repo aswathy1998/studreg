@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradientg"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50dp"
+                android:textStyle="italic"
+                android:text="Mount Zion"/>
+
+        </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bgcolor">
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the username"
+            android:drawablePadding="20dp"
+            android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+
+
+            android:id="@+id/uname"/>
+        <EditText
+           android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Enter the password"
+            android:drawablePadding="20dp"
+            android:drawableLeft="@drawable/ic_https_black_24dp"
+            android:id="@+id/upass"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/loginbutton"
+            android:text="LOGIN"
+            android:id="@+id/ulog"/>
+
+    </LinearLayout>
+</LinearLayout>
